@@ -18,13 +18,13 @@ var config = {
       "max": 360
     }
   }},
-  "hiddenDomain": "recorder.meet.jit.si",
+  "hiddenDomain": "recorder.meet.ffmuc.net",
   "enableLipSync": false,
   "minHDHeight": 540,
   "useRoomAsSharedDocumentName": false,
   "recordingType": "colibri",
-  "bosh": '//meet.jit.si/http-bind',
-  "websocket": 'wss://meet.jit.si/xmpp-websocket',
+  "bosh": '//meet.ffmuc.net/http-bind',
+  "websocket": 'wss://meet.ffmuc.net/xmpp-websocket',
   "startAudioMuted": 9,
   "openSctp": true,
   "clientNode": "http://igniterealtime.org/ofmeet/jitsi-meet/",
@@ -34,17 +34,17 @@ var config = {
   "desktopSharingFirefoxDisabled": false,
   "adaptiveLastN": false,
   "hosts": {
-    "domain": "meet.jit.si",
-    "focus": "focus.meet.jit.si",
-    "muc": "conference.meet.jit.si",
-    "bridge": "jitsi-videobridge.meet.jit.si"
+    "domain": "meet.ffmuc.net",
+    "focus": "focus.meet.ffmuc.net",
+    "muc": "conference.meet.ffmuc.net",
+    "bridge": "jitsi-videobridge.meet.ffmuc.net"
   },
   "logStats": false,
   "useRtcpMux": true,
   "requireDisplayName": true,
   "startVideoMuted": 9,
   "adaptiveSimulcast": false,
-  "enforcedBridge": "jitsi-videobridge.meet.jit.si",
+  "enforcedBridge": "jitsi-videobridge.meet.ffmuc.net",
   "useBundle": true,
   "p2p": {
     "disableH264": true,
@@ -64,5 +64,5 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "stereo": false,
-  "focusUserJid": "focus@meet.jit.si"
+  "focusUserJid": "focus@meet.ffmuc.net"
 };
